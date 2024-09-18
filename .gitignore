@@ -3,3 +3,6 @@ cleaned_file.xlsx
 DepCount-MTNi.xlsx
 output.xlsx
 updated_file1.xlsx
+__pycache__
+.DS_Store
+DepCount-MTNi-2xlsx

@@ -7,4 +7,6 @@ from depadd import add_col_from_file
 clean('DepCount-MTNi.xlsx', 'cleaned_file.xlsx')
 analyze('cleaned_file.xlsx')
 merge_columns("output.xlsx", "cleaned_file.xlsx")
+print("Finilizing")
 add_col_from_file("updated_file1.xlsx", "DepCount-MTNi.xlsx", "Analyzed DepCount-MTNi.xlsx")
+print("Done")
